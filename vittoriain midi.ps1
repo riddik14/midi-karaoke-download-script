@@ -1,5 +1,5 @@
-# Imposta la cartella di destinazione
-$baseFolder = "C:\Users\admin\desktop\midi"
+# Cartella base di destinazione cambiare "nome cartella utente" con il nome del proprio utente
+$baseFolder = "C:\Users\nome cartella utente\Desktop\vittoriain"
 New-Item -ItemType Directory -Path $baseFolder -Force | Out-Null
 
 # Scarica l'indice principale
