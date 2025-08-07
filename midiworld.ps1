@@ -7,7 +7,7 @@ $scaricati = @()
 $errori = @()
 
 # Numero massimo file
-$maxID = 4534
+$maxID = 5000
 
 for ($id = 1; $id -le $maxID; $id++) {
     $url = "https://www.midiworld.com/download/$id"
