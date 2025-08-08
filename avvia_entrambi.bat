@@ -1,4 +1,5 @@
 @echo off
-PowerShell.exe -ExecutionPolicy Bypass -NoProfile -File "C:\Users\admin\Desktop\vittoriain.ps1"
-PowerShell.exe -ExecutionPolicy Bypass -NoProfile -File "C:\Users\admin\Desktop\midiword.ps1"
+PowerShell.exe -ExecutionPolicy Bypass -NoProfile -File "vittoriain.ps1"
+pause
+PowerShell.exe -ExecutionPolicy Bypass -NoProfile -File "midiword.ps1"
 pause
