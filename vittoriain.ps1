@@ -1,5 +1,6 @@
-# Cartella base di destinazione cambiare "nome cartella utente" con il nome del proprio utente
-$baseFolder = "C:\Users\nome cartella utente\Desktop\vittoriain"
+# Imposta la cartella di destinazione
+$env:USERPROFILE
+$baseFolder = Join-Path $env:USERPROFILE "Desktop\midi\vittoriain"
 New-Item -ItemType Directory -Path $baseFolder -Force | Out-Null
 
 # Scarica l'indice principale
