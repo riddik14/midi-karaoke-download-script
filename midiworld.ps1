@@ -1,6 +1,6 @@
-# Cartella base di destinazione cambiare "nome cartella utente" con il nome del proprio utente
-$baseFolder = "C:\Users\nome cartella utente\Desktop\midiworld"
-New-Item -ItemType Directory -Path $baseFolder -Force | Out-Null
+# Cartella base di destinazione
+$env:USERPROFILE
+$baseFolder = Join-Path $env:USERPROFILE "Desktop\midi\midiworld"
 
 # Lista per tracciare download ed errori
 $scaricati = @()
