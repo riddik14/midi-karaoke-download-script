@@ -11,3 +11,6 @@ o
 
 # Imposta la cartella di destinazione
 $baseFolder = "C:\Users\nomecartellautente\desktop\midiworld"
+
+
+per avviare usa il file avvia_entrambi.bat come amministratore
